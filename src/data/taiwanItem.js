@@ -1,0 +1,67 @@
+export const taiwanItems = [
+  {
+    id: 1,
+    category: "食物",
+    name: "小籠包",
+    image: "/images/xiaolongbao.jpg",
+    type: "料理",
+    recommend: 5.0,
+    popularity: 5.0,
+    season: "一年中",
+    area: "台北",
+    description:
+      "小籠包は台湾を代表する料理の一つです。薄い皮の中に肉汁が入っていて、観光客にも人気があります。",
+  },
+  {
+    id: 2,
+    category: "食物",
+    name: "牛肉麺",
+    image: "/images/beef-noodle.jpg",
+    type: "料理",
+    recommend: 5.0,
+    popularity: 4.5,
+    season: "一年中",
+    area: "台湾全土",
+    description:
+      "牛肉麺は台湾でよく食べられている麺料理です。牛肉、スープ、麺の組み合わせが特徴です。",
+  },
+  {
+    id: 3,
+    category: "観光地",
+    name: "台北101",
+    image: "/images/taipei101.jpg",
+    type: "建築物",
+    recommend: 5.0,
+    popularity: 5.0,
+    season: "一年中",
+    area: "台北",
+    description:
+      "台北101は台湾を代表する高層ビルです。展望台から台北の景色を見ることができます。",
+  },
+  {
+    id: 4,
+    category: "観光地",
+    name: "九份",
+    image: "/images/jiufen.jpg",
+    type: "街並み",
+    recommend: 5.0,
+    popularity: 5.0,
+    season: "秋・冬",
+    area: "新北",
+    description:
+      "九份は山の斜面にある観光地で、赤い提灯と古い街並みが有名です。",
+  },
+  {
+    id: 5,
+    category: "祭り",
+    name: "ランタンフェスティバル",
+    image: "/images/lantern.jpg",
+    type: "祭り",
+    recommend: 5.0,
+    popularity: 5.0,
+    season: "2月頃",
+    area: "台湾各地",
+    description:
+      "ランタンフェスティバルでは、多くのランタンが会場を彩ります。台湾らしい行事の一つです。",
+  },
+];
