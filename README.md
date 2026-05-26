@@ -1,16 +1,51 @@
-# React + Vite
+# 台湾ガイダンス
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+●対象ユーザー
 
-Currently, two official plugins are available:
+台湾について知りたい人、台湾旅行の前に有名な食べ物や観光地を調べたい人、日本語で台湾の文化を簡単に確認したい人を対象にしたアプリです。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+●アプリの特徴
 
-## React Compiler
+このアプリは、台湾の食物、観光地、祭り、文化、自然を一覧で紹介するガイドアプリです。画面上部のカテゴリーを選ぶと、表示される項目を切り替えることができます。一覧には名称、カテゴリー、知名度、季節、地域が表示されます。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+項目をクリックすると詳細画面が開き、写真、説明文、おすすめ度、知名度、季節、地域を確認できます。台湾の代表的な内容を画像と短い説明で見られるため、初めて台湾について調べる人にも分かりやすい構成です。
 
-## Expanding the ESLint configuration
+●導入・起動環境
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js と npm が必要です。
+- 最初に必要なパッケージをインストールします。
+
+```bash
+npm install
+```
+
+- 開発環境で起動する場合は、次のコマンドを実行します。
+
+```bash
+npm run dev
+```
+
+- Electron版として起動する場合は、次のコマンドを実行します。
+
+```bash
+npm run electron:dev
+```
+
+- 配布用ファイルを作成する場合は、次のコマンドを実行します。
+
+```bash
+npm run electron:build
+```
+
+●使用言語
+
+- JavaScript
+- JSX
+- CSS
+- HTML
+
+使用している主な技術は React、Vite、Electron です。
+
+●まとめ（感想・総評）
+
+台湾の食べ物、観光地、祭り、文化、自然を一つの画面で整理できるアプリになりました。カテゴリーで内容を分けたことで、見たい情報を探しやすくなっています。また、画像と説明を組み合わせた詳細画面により、文章だけでなく見た目からも台湾の雰囲気を伝えられる構成になっています。
