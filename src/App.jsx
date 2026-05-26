@@ -48,7 +48,7 @@ function App() {
             <div>{index + 1}</div>
 
             <div className="name-cell">
-              <img src={item.image} alt={item.name} />
+              <img src={item.image} />
               <span>{item.name}</span>
             </div>
 
