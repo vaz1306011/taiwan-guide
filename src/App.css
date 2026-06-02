@@ -50,7 +50,7 @@
 .table-header,
 .table-row {
   display: grid;
-  grid-template-columns: 60px 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 60px 2fr 1fr 1fr 1fr 1fr;
   align-items: center;
 }
 
